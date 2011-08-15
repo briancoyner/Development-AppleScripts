@@ -1,5 +1,5 @@
 # AppleScripts
-## Created by Brian Coyner
+## Created by Brian Coyner, 2011
 
 ## Resize Xcode
 ### Description
