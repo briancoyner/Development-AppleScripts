@@ -11,3 +11,12 @@ Use Spotlight to quickly execute the AppleScript app bundle. Simply type Command
 ### Why use it?
 If you find yourself moving Xcode windows around a lot, then you will love this script because it allows you to quickly size and position your Xcode windows just the way you like. For example, I often move around Xcode windows when comparing source from multiple projects. Once I am done, my Xcode windows are all over the screen. A quick Command+Space, Resize Xcode, Return, and my Xcode windows are perfectly sized and positioned.
 
+### I don't like your size and position. How do I change it?
+Open the the 'Resize Xcode.app' application bundle or the 'Resize Xcode.scpt' file using AppleScript Editor. Then modify the size and/ or position values. 
+
+### What does the script look like?
+
+tell application "Xcode"
+    -- using 9999 as the height automatically takes into account the size of the dock
+    set the bounds of every window to {400, 0, 400 + 1900, 9999}
+end tell
