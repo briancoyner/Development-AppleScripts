@@ -16,7 +16,7 @@ Open the the 'Resize Xcode.app' application bundle or the 'Resize Xcode.scpt' fi
 
 ### What does the script look like?
 
-tell application "Xcode"
-    -- using 9999 as the height automatically takes into account the size of the dock
-    set the bounds of every window to {400, 0, 400 + 1900, 9999}
-end tell
+    tell application "Xcode"
+        -- using 9999 as the height automatically takes into account the size of the dock
+        set the bounds of every window to {400, 0, 400 + 1900, 9999}
+    end tell
