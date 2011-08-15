@@ -1,4 +1,4 @@
-ppleScripts
+# AppleScripts
 ## Created by Brian Coyner
 
 ## Resize Xcode
